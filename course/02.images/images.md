@@ -27,3 +27,9 @@
 ```sh
 $ docker image push nouvellie/nginx
 ```
+
+## Test Dockerfile ****** not ready yet
+
+```sh
+$ docker build -t testnode .
+```
