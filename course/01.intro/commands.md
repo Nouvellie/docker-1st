@@ -99,3 +99,9 @@ $ docker volume prune
 ```sh
 $ docker rm -v <containername>
 ```
+
+## List only running container
+
+```sh
+$ docker container ls
+```
