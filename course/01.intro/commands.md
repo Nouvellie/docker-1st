@@ -63,7 +63,7 @@ $ docker rmi $(docker images -a -q)
 
 ```sh
 $ docker ps -a
-$ docker rm <idorname1> <idorname2>
+$ docker rm -f <idorname1> <idorname2>
 ```
 
 #### Run and remove:
@@ -104,4 +104,10 @@ $ docker rm -v <containername>
 
 ```sh
 $ docker container ls
+```
+
+## Logs
+
+```sh
+$ docker container logs <containername>
 ```

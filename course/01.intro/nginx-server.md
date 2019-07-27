@@ -14,5 +14,5 @@ $ docker container run --publish 80:80 --detach nginx
 #### With a name:
 
 ```sh
-$ docker container run --publish 80:80 --detach --name <name> nginx
+$ docker container run --publish 80:80 --detach --name <containername> nginx
 ```
