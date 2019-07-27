@@ -1,4 +1,4 @@
-# NGINX SERVER
+# NGINX
 ## Starting
 
 ```sh
