@@ -111,3 +111,21 @@ $ docker container ls
 ```sh
 $ docker container logs <containername>
 ```
+
+## Ports
+
+- Nginx: 80:80.
+- Httpd: 8080:80.
+- MySQL: 3306:3306.
+
+## Run container interactively
+
+```sh
+$ docker container run -it
+```
+
+## Run additional command in existing container
+
+```sh
+$ docker container exec -it
+```
