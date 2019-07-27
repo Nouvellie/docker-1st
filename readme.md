@@ -6,7 +6,7 @@
 
 
 <br><br><p align="center">
-  <img width="75%" height="75%" src="" alt="Docker Mastery: The complete toolset from a docker captain">
+  <img width="75%" height="75%" src="https://github.com/Nouvellie/docker-1st/blob/docker/course/img/docker-1st-logo.jpg" alt="Docker Mastery: The complete toolset from a docker captain">
 </p>
 
 <br><br>
