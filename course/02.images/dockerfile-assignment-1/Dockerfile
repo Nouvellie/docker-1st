@@ -27,7 +27,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json package.json
 # - Then it needs to run 'npm install' to install dependencies from that file.
-RUN npm install && npc cache clean
+RUN npm install && npm cache clean
 # - To keep it clean and small, run 'npm cache clean --force' after above.
 # - Then it needs to copy in all files from current directory.
 COPY . .
