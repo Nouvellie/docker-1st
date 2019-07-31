@@ -10,3 +10,11 @@
 - Expected result is web site at http://localhost.
 - Tag and push to your Docker Hub account. (free)
 - Remove your image from local cache, run again from Hub.
+
+## Example
+#### On "dockerfile-assignment-1" folder:
+
+```sh
+$ docker build -t testnode .
+$ docker container run --rm  -p 80:3000 testnode
+```
