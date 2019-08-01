@@ -11,7 +11,7 @@
 - Tag and push to your Docker Hub account. (free)
 - Remove your image from local cache, run again from Hub.
 
-## Example
+## Example1
 #### On "dockerfile-assignment-1" folder:
 
 ```sh
