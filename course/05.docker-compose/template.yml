@@ -1,0 +1,14 @@
+version: '3.1' # If no version is specificed then v1 is assumed. v2 minimun recommended.
+
+services: # Containers, same as docker run.
+  servicename: # A friendly name, this is also DNS name inside network.
+    image: # Optional if you used Build.
+    command: # Optional, replace the default CMD specified by the image.
+    environment: # Optional, same as -e in docker run.
+    volumes: # Optional, same as -v in docker run.
+  servicename2:
+
+volumes: # Optional, same as docker volume create.
+
+networks: # Optional, same as docker network create.
+
