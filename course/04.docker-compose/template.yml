@@ -11,4 +11,3 @@ services: # Containers, same as docker run.
 volumes: # Optional, same as docker volume create.
 
 networks: # Optional, same as docker network create.
-
