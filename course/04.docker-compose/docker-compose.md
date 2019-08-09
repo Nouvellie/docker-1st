@@ -20,3 +20,12 @@
 - YAML file can be used with **docker-compose** command for local docker automation or with **docker** directly in production with *Swarm*. (as v1.13)
 - **docker-compose --help** 
 - **docker-compose.yml** is default filename, but any can be used with **docker-compose -f**.
+
+## Drupal example
+
+- Rename the docker-compose-drupal to docker-compose.
+- Run the docker.
+
+```sh
+$ docker-compose up
+```
